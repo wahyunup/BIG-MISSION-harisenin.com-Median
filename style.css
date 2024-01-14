@@ -1,3 +1,7 @@
+body{
+    font-family: 'Inter', sans-serif;   
+}
+
 .median{
     background-color: #005555;
     height: 1024px;
@@ -71,4 +75,105 @@
     text-align: center;
 }
 
+.wrapper{
+    background-color: #fff;
+    width: 426px;
+    height: 565px;
+    padding: 30px 0px;
+    border: 1px solid #000;
+    border-radius: 16px;
+}
 
+.wrapper .input-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper .button{
+    background-color: #005555;
+    width: 376px;
+    height: 36px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.wrapper .button a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box{
+  display: block !important;  
+}
+
+.input-box .form-label{
+    margin-top: 10px;
+}
+
+.input-box .input{
+    width: 378px;
+    height: 56px;
+    border: 1px solid #3A35413B;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.button-position{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: 378px;
+    margin: auto;
+}
+
+.form-label::placeholder{
+    margin: 10px;
+}
+
+.remember{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember a{
+    text-decoration: none;
+    color: #005555;
+}
+
+.input-box input{
+    padding-left: 15px;
+}
+
+.button-sec{
+    width: 376px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #000;
+    padding-bottom: none;
+}
+
+.button-sec svg{
+    width: 16.96px;
+    height: 16.96px;
+}
+
+.button-sec a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+
+.wrapper-position{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
