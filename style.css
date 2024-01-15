@@ -80,7 +80,7 @@ body{
     width: 426px;
     height: 565px;
     padding: 30px 0px;
-    border: 1px solid #000;
+    border: 1px solid #3A35413B;
     border-radius: 16px;
 }
 
@@ -182,4 +182,9 @@ body{
     .median{
         display: none;
     }
+
+    .wrapper-position{
+        height: 150% !important;
+    }
+
   }
