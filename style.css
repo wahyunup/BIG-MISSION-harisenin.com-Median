@@ -157,7 +157,7 @@ body{
     height: 40px;
     background-color: transparent;
     border-radius: 6px;
-    border: 1px solid #000;
+    border: 1px solid #3A35413B;
     padding-bottom: none;
 }
 
@@ -177,3 +177,9 @@ body{
     align-items: center;
     display: flex;
 }
+
+@media screen and (max-width: 990px) {
+    .median{
+        display: none;
+    }
+  }
