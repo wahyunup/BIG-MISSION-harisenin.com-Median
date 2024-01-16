@@ -185,6 +185,21 @@ body{
 
 }
 
+.footer{
+    background-color: #fff;
+}    
+
+.footer p{
+    margin-bottom: 0;
+    margin-top: -49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6C717A;
+    border-top: 1px solid #E1E6EF;
+    height: 49px;
+}
+
 @media screen and (max-width: 990px) {
     .median{
         display: none;
