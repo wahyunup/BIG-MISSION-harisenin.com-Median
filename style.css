@@ -211,6 +211,7 @@ body{
 
     .wrapper{
         width: 320px;
+        height: 490px;
     }
 
     .wrapper .wrap{
@@ -225,4 +226,10 @@ body{
     .remember{
         font-size: 12px;
     }
+
+    .footer p{
+        height: 30px;
+        margin-top: 20px;
+    }
+
   }
