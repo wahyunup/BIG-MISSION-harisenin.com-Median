@@ -200,13 +200,20 @@ body{
     height: 49px;
 }
 
+@media screen and (max-width: 1920px){
+    .LogoMobile{
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 990px) {
     .median{
         display: none;
     }
 
     .wrapper-position{
-        height: 150% !important;
+        height: 82% !important;
     }
 
     .wrapper{
@@ -228,8 +235,14 @@ body{
     }
 
     .footer p{
-        height: 30px;
-        margin-top: 20px;
+        margin-top: 65px;
+    }
+
+    .LogoMobile{
+        display: flex;
+        justify-content: center;
+        margin-top: 54px;
+
     }
 
   }
