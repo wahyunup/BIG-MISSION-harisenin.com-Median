@@ -209,4 +209,20 @@ body{
         height: 150% !important;
     }
 
+    .wrapper{
+        width: 320px;
+    }
+
+    .wrapper .wrap{
+        width: 272px;
+    }
+    
+    .input-box .input{
+        width: 272px;
+        height: 40px;
+    }
+
+    .remember{
+        font-size: 12px;
+    }
   }
