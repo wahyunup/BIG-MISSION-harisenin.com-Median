@@ -56,3 +56,38 @@ nav{
     justify-content: space-between;
     padding: 1rem 2rem;
 }
+
+.categori .wrapperCategori .listCategori{
+    display: flex;
+    column-gap: 8px;
+}
+
+.categori .wrapperCategori a{
+    background-color: #3A354114;
+    padding: 4px 10px;
+    border-radius: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.categori .wrapperCategori .lihatSemuaTopik a{
+    background-color: unset;
+    font-size: 12px;
+    text-decoration: none;
+    color: #005555;
+}
+
+.categori .wrapperCategori{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    padding: 1rem 2rem;
+    display: flex;
+}
+
+.wrap{
+    width: 901px;
+}
