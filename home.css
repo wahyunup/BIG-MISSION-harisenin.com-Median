@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.NavContainer{
+    display: inline-flex;
+    column-gap: 24px    ;
+}
+
+.search .NavContainer img{
+   width: 131px;
+   height: 40px;
+}
+
+.search .NavContainer input{
+    padding: 0 12px 0 12px;
+    border-radius: 25px;
+    border: 1px solid #BDBDBD;
+}
+
+.userProfile .NavContainer{
+    align-items: center;
+}
+
+.userProfile .NavContainer img{
+    width: 35px;
+    height: 35px;
+}
+
+.userProfile .NavContainer button{
+    background-color: #005555;
+    border-radius: 24px;
+    padding: 8px 26px 8px 26px;
+    border: none;
+}
+
+.userProfile .NavContainer button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.userProfile .NavContainer .user{
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.userProfile .NavContainer .user .icon{
+    width: 20px;
+    height: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
