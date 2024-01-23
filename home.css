@@ -92,6 +92,10 @@ nav{
     width: 901px;
 }
 
+.wrapper .wrap h4{
+    padding-bottom: 19px;
+}
+
 .semuaTopik .wrap{
     display: flex;
     column-gap: 24px;
@@ -106,6 +110,7 @@ nav{
 .semuaTopik .wrap .media{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .semuaTopik .wrap a{
@@ -122,9 +127,16 @@ nav{
 .semuaTopik .wrap .media img{
     width: 11.67px;
     height: 15px;
+    display: flex;
+    justify-self: flex-end;
 }
 
 .semuaTopik .wrap .typographyWrapper{
     display: grid;
     row-gap: 8px;
+    width: 901px;
+}
+
+.bacaanPopuler .cards{
+    background-color: #FDF0CC;
 }
