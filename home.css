@@ -91,3 +91,40 @@ nav{
 .wrap{
     width: 901px;
 }
+
+.semuaTopik .wrap{
+    display: flex;
+    column-gap: 24px;
+    padding-top: 24px;
+}
+
+.semuaTopik .wrap h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.semuaTopik .wrap .media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.semuaTopik .wrap a{
+    text-decoration: none;
+    color: black;
+    padding: 4px 8px;
+    border: 1px solid #3A35413B;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.semuaTopik .wrap .media img{
+    width: 11.67px;
+    height: 15px;
+}
+
+.semuaTopik .wrap .typographyWrapper{
+    display: grid;
+    row-gap: 8px;
+}
