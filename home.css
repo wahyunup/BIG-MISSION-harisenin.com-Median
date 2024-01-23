@@ -8,6 +8,11 @@
     column-gap: 24px    ;
 }
 
+.search{
+    display: flex;
+    align-items: center;
+}
+
 .search .NavContainer img{
    width: 131px;
    height: 40px;
@@ -44,6 +49,13 @@
     display: flex;
     align-items: center;
     column-gap: 11px;
+    padding: 5px 10px 5px 8px;
+}
+
+.userProfile .NavContainer .user:hover{
+    border-radius: 25px;
+    background-color: #FDF0CC;
+    padding: 5px 10px 5px 8px;
 }
 
 .userProfile .NavContainer .user .icon{
@@ -55,6 +67,8 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
+    align-items: center;
+    background-color: #fff;
 }
 
 .categori .wrapperCategori .listCategori{
@@ -84,7 +98,7 @@ nav{
 }
 
 .wrapper{
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 6rem 2rem;
     display: flex;
 }
 
@@ -137,6 +151,114 @@ nav{
     width: 901px;
 }
 
+.wrapperBacaanPopuler{
+    display: grid;
+    justify-content: flex-end;
+    width: 100%;
+    padding-left: 40px;
+}
+
+
+.bacaanPopuler h4{
+    padding-bottom: 19px;
+}
+
+.bacaanPopuler .rekomendasiPenulis h4{
+    padding-top: 32px;
+}
+
+.bacaanPopuler .cardWrapper{
+    display: grid;
+    gap: 16px;
+}
+
 .bacaanPopuler .cards{
     background-color: #FDF0CC;
+    padding: 16px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+#blue{
+    background-color: #E5EEEE;
+}
+
+.bacaanPopuler .cards .wrappers .nomor{
+    padding: 4px 8px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 35px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.bacaanPopuler .cards .wrappers p{
+    font-size: 14px;
+    color: #4A505C;
+}
+
+.bacaanPopuler .cards .wrappers{
+    display: flex;
+    align-items: baseline;
+    column-gap: 8px;
+}
+
+.bacaanPopuler .cards .subBody{
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0,2px;
+    font-weight: 600;
+}
+
+.bacaanPopuler .cards .user{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 8px;
+}
+
+.bacaanPopuler .cards .user p{
+    margin-bottom: 0;
+}
+
+.wrapperRekomendasiPenulis .rekomendasiPenulis .profilePenulis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapperRekomendasiPenulis .rekomendasiPenulis .profilePenulis .user{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.wrapperRekomendasiPenulis .rekomendasiPenulis .profilePenulis a{
+    text-decoration: none;
+    padding: 6px 22px 6px 22px;
+    border: 1px solid #005555;
+    border-radius: 20px;
+    color: #005555;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+}
+
+.wrapperRekomendasiPenulis .rekomendasiPenulis .wrapperPenulis{
+    display: grid;
+    gap: 16px;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 16px 0px;
+    border: 1px solid #E1E6EF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    letter-spacing: 0.2px;
+    color: #6C717A;
 }
