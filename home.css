@@ -129,13 +129,18 @@ nav{
 
 .semuaTopik .wrap a{
     text-decoration: none;
-    color: black;
-    padding: 4px 8px;
+    color: #0e0d0fb9;
+    padding: 4px 12px;
     border: 1px solid #3A35413B;
     border-radius: 20px;
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
+}
+
+.semuaTopik .wrap a:hover{
+    background-color: #eaeaea;
+    border: 1px solid #fff;
 }
 
 .semuaTopik .wrap .media img{
@@ -242,6 +247,12 @@ nav{
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.2px;
+}
+
+.wrapperRekomendasiPenulis .rekomendasiPenulis .profilePenulis a:hover{
+    border: 1px solid #005555;
+    background-color: #005555;
+    color: #fff;
 }
 
 .wrapperRekomendasiPenulis .rekomendasiPenulis .wrapperPenulis{
